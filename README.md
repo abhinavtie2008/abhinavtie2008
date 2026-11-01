@@ -44,8 +44,8 @@ I'm a B.Tech student in Delhi and a full-stack developer. I enjoy the whole arc 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,js,python,react,nodejs,bootstrap,tailwind&theme=dark&perline=8">
-    <img src="https://skillicons.dev/icons?i=html,css,js,python,react,nodejs,bootstrap,tailwind&theme=light&perline=8" alt="HTML, CSS, JavaScript, Python, React, Node.js, Bootstrap, Tailwind" width="70%" />
+    <source media="(prefers-color-scheme: dark)" type="image/svg+xml" srcset="https://raw.githubusercontent.com/abhinavtie2008/abhinavtie2008/main/assets/skills-dark.svg">
+    <img src="https://raw.githubusercontent.com/abhinavtie2008/abhinavtie2008/main/assets/skills-light.svg" alt="HTML, CSS, JavaScript, Python, React, Node.js, Bootstrap, Tailwind" width="70%" />
   </picture>
 </p>
 
