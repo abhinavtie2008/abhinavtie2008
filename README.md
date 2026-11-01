@@ -10,8 +10,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=800&color=F9A8D4&center=true&vCenter=true&width=850&lines=Full-stack+developer;B.Tech+student+in+Delhi;Building+cute+things+that+work">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=800&color=DB2777&center=true&vCenter=true&width=850&lines=Full-stack+developer;B.Tech+student+in+Delhi;Building+cute+things+that+work" alt="Full-stack developer · B.Tech student in Delhi · Building cute things that work" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=800&color=F9A8D4&center=true&vCenter=true&width=850&lines=Full-stack+developer;B.Tech+student+in+Delhi;Building+real+things+that+work">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=800&color=DB2777&center=true&vCenter=true&width=850&lines=Full-stack+developer;B.Tech+student+in+Delhi;Building+real+things+that+work" alt="Full-stack developer · B.Tech student in Delhi · Building real things that work" />
   </picture>
 </p>
 
