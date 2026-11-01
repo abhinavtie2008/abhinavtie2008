@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Animated smiling star with sparkles and hearts">
+  <defs>
+    <linearGradient id="starFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F9A8D4"/>
+      <stop offset="0.55" stop-color="#C4B5FD"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#64748B" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#64748B" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#64748B" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <line x1="190" y1="72" x2="520" y2="72" stroke="url(#lineGrad)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="680" y1="72" x2="1010" y2="72" stroke="url(#lineGrad)" stroke-width="1.5" stroke-linecap="round"/>
+
+  <circle cx="520" cy="72" r="2.2" fill="#5EEAD4">
+    <animate attributeName="opacity" values="0.2;0.85;0.2" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="680" cy="72" r="2.2" fill="#F9A8D4">
+    <animate attributeName="opacity" values="0.85;0.2;0.85" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <g fill="#5EEAD4" transform="translate(300 50)">
+    <path d="M0 -8 C1 -3 3 -1 8 0 C3 1 1 3 0 8 C-1 3 -3 1 -8 0 C-3 -1 -1 -3 0 -8 Z">
+      <animate attributeName="opacity" values="0.15;0.85;0.15" dur="4.2s" begin="0s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#C4B5FD" transform="translate(430 104) scale(0.75)">
+    <path d="M0 -8 C1 -3 3 -1 8 0 C3 1 1 3 0 8 C-1 3 -3 1 -8 0 C-3 -1 -1 -3 0 -8 Z">
+      <animate attributeName="opacity" values="0.15;0.8;0.15" dur="5.1s" begin="1.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#F9A8D4" transform="translate(760 46) scale(0.85)">
+    <path d="M0 -8 C1 -3 3 -1 8 0 C3 1 1 3 0 8 C-1 3 -3 1 -8 0 C-3 -1 -1 -3 0 -8 Z">
+      <animate attributeName="opacity" values="0.15;0.9;0.15" dur="4.7s" begin="0.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#5EEAD4" transform="translate(880 104) scale(0.7)">
+    <path d="M0 -8 C1 -3 3 -1 8 0 C3 1 1 3 0 8 C-1 3 -3 1 -8 0 C-3 -1 -1 -3 0 -8 Z">
+      <animate attributeName="opacity" values="0.15;0.8;0.15" dur="5.6s" begin="1.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#F9A8D4" transform="translate(170 92) scale(0.6)">
+    <path d="M0 -8 C1 -3 3 -1 8 0 C3 1 1 3 0 8 C-1 3 -3 1 -8 0 C-3 -1 -1 -3 0 -8 Z">
+      <animate attributeName="opacity" values="0.15;0.75;0.15" dur="5s" begin="2.4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#C4B5FD" transform="translate(1030 84) scale(0.65)">
+    <path d="M0 -8 C1 -3 3 -1 8 0 C3 1 1 3 0 8 C-1 3 -3 1 -8 0 C-3 -1 -1 -3 0 -8 Z">
+      <animate attributeName="opacity" values="0.15;0.8;0.15" dur="4.4s" begin="0.9s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g transform="translate(360 72) scale(0.85)" fill="#F472B6">
+    <path d="M0 4 C-1 2 -6 -1 -6 -4 C-6 -6.5 -3 -8 -0.6 -6.4 C-0.2 -6.1 0 -5.8 0 -5.6 C0 -5.8 0.2 -6.1 0.6 -6.4 C3 -8 6 -6.5 6 -4 C6 -1 1 2 0 4 Z">
+      <animate attributeName="opacity" values="0.35;0.9;0.35" dur="5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g transform="translate(840 72) scale(0.85)" fill="#F472B6">
+    <path d="M0 4 C-1 2 -6 -1 -6 -4 C-6 -6.5 -3 -8 -0.6 -6.4 C-0.2 -6.1 0 -5.8 0 -5.6 C0 -5.8 0.2 -6.1 0.6 -6.4 C3 -8 6 -6.5 6 -4 C6 -1 1 2 0 4 Z">
+      <animate attributeName="opacity" values="0.35;0.9;0.35" dur="6s" begin="1s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" dur="6s" begin="1s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g transform="translate(600 72) scale(1.45)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4.6s" repeatCount="indefinite"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="-2;2;-2" dur="7s" repeatCount="indefinite"/>
+        <path d="M0 -30 L7.94 -10.92 L28.53 -9.27 L12.84 4.17 L17.63 24.27 L0 13.5 L-17.63 24.27 L-12.84 4.17 L-28.53 -9.27 L-7.94 -10.92 Z" fill="#F472B6" opacity="0.38" filter="url(#softGlow)"/>
+        <path d="M0 -30 L7.94 -10.92 L28.53 -9.27 L12.84 4.17 L17.63 24.27 L0 13.5 L-17.63 24.27 L-12.84 4.17 L-28.53 -9.27 L-7.94 -10.92 Z" fill="url(#starFill)" stroke="url(#starFill)" stroke-width="7" stroke-linejoin="round"/>
+        <ellipse cx="-7.5" cy="-5" rx="1.8" ry="2.9" fill="#1E1B4B">
+          <animate attributeName="ry" values="2.9;2.9;0.5;2.9" keyTimes="0;0.9;0.94;1" dur="5.4s" repeatCount="indefinite"/>
+        </ellipse>
+        <ellipse cx="7.5" cy="-5" rx="1.8" ry="2.9" fill="#1E1B4B">
+          <animate attributeName="ry" values="2.9;2.9;0.5;2.9" keyTimes="0;0.9;0.94;1" dur="5.4s" repeatCount="indefinite"/>
+        </ellipse>
+        <ellipse cx="-14" cy="1.5" rx="3.2" ry="1.9" fill="#FB7185" opacity="0.45"/>
+        <ellipse cx="14" cy="1.5" rx="3.2" ry="1.9" fill="#FB7185" opacity="0.45"/>
+        <path d="M-4.5 1.5 Q0 6 4.5 1.5" fill="none" stroke="#1E1B4B" stroke-width="1.8" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+</svg>
